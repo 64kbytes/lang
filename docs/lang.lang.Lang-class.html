@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>lang.lang.Lang</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="lang-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="https://github.com/64kbytes/lang">Lang</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        <a href="lang-module.html">Package&nbsp;lang</a> ::
+        <a href="lang.lang-module.html">Module&nbsp;lang</a> ::
+        Class&nbsp;Lang
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="lang.lang.Lang-class.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS DESCRIPTION ==================== -->
+<h1 class="epydoc">Class Lang</h1><p class="nomargin-top"><span class="codelink"><a href="lang.lang-pysrc.html#Lang">source&nbsp;code</a></span></p>
+<center>
+<center>  <map id="uml_class_diagram_for_lang_lan_2" name="uml_class_diagram_for_lang_lan_2">
+<area shape="rect" id="node1_15" href="lang.lang.Lang-class.html#delimiters" title="lang.lang.Lang.delimiters" alt="" coords="17,31,117,51"/>
+<area shape="rect" id="node1_16" href="lang.lang.Lang-class.html#r_space" title="lang.lang.Lang.r_space" alt="" coords="17,51,117,71"/>
+<area shape="rect" id="node1_17" href="lang.lang.Lang-class.html#r_newline" title="lang.lang.Lang.r_newline" alt="" coords="17,71,117,91"/>
+<area shape="rect" id="node1_18" href="lang.lang.Lang-class.html#r_tab" title="lang.lang.Lang.r_tab" alt="" coords="17,91,117,111"/>
+<area shape="rect" id="node1_19" href="lang.lang.Lang-class.html#r_slash" title="lang.lang.Lang.r_slash" alt="" coords="17,111,117,131"/>
+<area shape="rect" id="node1_20" href="lang.lang.Lang-class.html#r_asterisk" title="lang.lang.Lang.r_asterisk" alt="" coords="17,131,117,151"/>
+<area shape="rect" id="node1_21" href="lang.lang.Lang-class.html#r_comma" title="lang.lang.Lang.r_comma" alt="" coords="17,151,117,171"/>
+<area shape="rect" id="node1_22" href="lang.lang.Lang-class.html#r_equal" title="lang.lang.Lang.r_equal" alt="" coords="17,171,117,191"/>
+<area shape="rect" id="node1_23" href="lang.lang.Lang-class.html#r_plus" title="lang.lang.Lang.r_plus" alt="" coords="17,191,117,211"/>
+<area shape="rect" id="node1_24" href="lang.lang.Lang-class.html#r_dash" title="lang.lang.Lang.r_dash" alt="" coords="17,211,117,231"/>
+<area shape="rect" id="node1_25" href="lang.lang.Lang-class.html#r_bracket_l" title="lang.lang.Lang.r_bracket_l" alt="" coords="17,231,117,251"/>
+<area shape="rect" id="node1_26" href="lang.lang.Lang-class.html#r_bracket_r" title="lang.lang.Lang.r_bracket_r" alt="" coords="17,251,117,271"/>
+<area shape="rect" id="node1_27" href="lang.lang.Lang-class.html#r_parentheses_l" title="lang.lang.Lang.r_parentheses_l" alt="" coords="17,271,117,291"/>
+<area shape="rect" id="node1_28" href="lang.lang.Lang.Expression-class.html" title="lang.lang.Lang.Expression" alt="" coords="17,311,117,331"/>
+<area shape="rect" id="node1_29" href="lang.lang.Lang-class.html#identifier" title="lang.lang.Lang.identifier" alt="" coords="17,333,117,353"/>
+<area shape="rect" id="node1" href="lang.lang.Lang-class.html" title="Coldwar scripting language" alt="" coords="5,5,129,360"/>
+</map>
+  <img src="uml_class_diagram_for_lang_lan_2.gif" alt='' usemap="#uml_class_diagram_for_lang_lan_2" ismap="ismap" class="graph-without-title" />
+</center>
+</center>
+<hr />
+<p>Coldwar scripting language</p>
+
+<!-- ==================== NESTED CLASSES ==================== -->
+<a name="section-NestedClasses"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Nested Classes</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-NestedClasses"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Evaluable-class.html" class="summary-name">Evaluable</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Callable-class.html" class="summary-name">Callable</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Block-class.html" class="summary-name">Block</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Control-class.html" class="summary-name">Control</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Lexeme-class.html" class="summary-name">Lexeme</a><br />
+      Base class for every language word
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.WhiteSpace-class.html" class="summary-name">WhiteSpace</a><br />
+      Spaces and tabs
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Space-class.html" class="summary-name">Space</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.NewLine-class.html" class="summary-name">NewLine</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Tab-class.html" class="summary-name">Tab</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Struct-class.html" class="summary-name">Struct</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Constant-class.html" class="summary-name">Constant</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.String-class.html" class="summary-name">String</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Float-class.html" class="summary-name">Float</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Integer-class.html" class="summary-name">Integer</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.List-class.html" class="summary-name">List</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Operator-class.html" class="summary-name">Operator</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.UnaryOperator-class.html" class="summary-name">UnaryOperator</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Not-class.html" class="summary-name">Not</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Assign-class.html" class="summary-name">Assign</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Equal-class.html" class="summary-name">Equal</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Inequal-class.html" class="summary-name">Inequal</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.EqualStrict-class.html" class="summary-name">EqualStrict</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.InequalStrict-class.html" class="summary-name">InequalStrict</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Subtract-class.html" class="summary-name">Subtract</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Add-class.html" class="summary-name">Add</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Increment-class.html" class="summary-name">Increment</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Decrement-class.html" class="summary-name">Decrement</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Divide-class.html" class="summary-name">Divide</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Multiply-class.html" class="summary-name">Multiply</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Delimiter-class.html" class="summary-name">Delimiter</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Parentheses-class.html" class="summary-name">Parentheses</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Bracket-class.html" class="summary-name">Bracket</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Comma-class.html" class="summary-name">Comma</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.DoubleQuote-class.html" class="summary-name">DoubleQuote</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.SingleQuote-class.html" class="summary-name">SingleQuote</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Identifier-class.html" class="summary-name">Identifier</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Keyword-class.html" class="summary-name">Keyword</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Procedure-class.html" class="summary-name">Procedure</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Def-class.html" class="summary-name">Def</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Exec-class.html" class="summary-name">Exec</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.If-class.html" class="summary-name">If</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Else-class.html" class="summary-name">Else</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.End-class.html" class="summary-name">End</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Parameter-class.html" class="summary-name">Parameter</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Until-class.html" class="summary-name">Until</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.By-class.html" class="summary-name">By</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Tune-class.html" class="summary-name">Tune</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Wait-class.html" class="summary-name">Wait</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.BuiltIn-class.html" class="summary-name">BuiltIn</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Tailed-class.html" class="summary-name">Tailed</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Prnt-class.html" class="summary-name">Prnt</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Preprocessor-class.html" class="summary-name">Preprocessor</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.CommentBlock-class.html" class="summary-name">CommentBlock</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.CommentLine-class.html" class="summary-name">CommentLine</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Include-class.html" class="summary-name">Include</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.GameObject-class.html" class="summary-name">GameObject</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Character-class.html" class="summary-name">Character</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Ego-class.html" class="summary-name">Ego</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Grammar-class.html" class="summary-name">Grammar</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Clause-class.html" class="summary-name">Clause</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang.Expression-class.html" class="summary-name">Expression</a>
+    </td>
+  </tr>
+</table>
+<!-- ==================== INSTANCE METHODS ==================== -->
+<a name="section-InstanceMethods"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Instance Methods</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-InstanceMethods"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+  <tr>
+    <td colspan="2" class="summary">
+    <p class="indent-wrapped-lines"><b>Inherited from <code>object</code></b>:
+      <code>__delattr__</code>,
+      <code>__format__</code>,
+      <code>__getattribute__</code>,
+      <code>__hash__</code>,
+      <code>__init__</code>,
+      <code>__new__</code>,
+      <code>__reduce__</code>,
+      <code>__reduce_ex__</code>,
+      <code>__repr__</code>,
+      <code>__setattr__</code>,
+      <code>__sizeof__</code>,
+      <code>__str__</code>,
+      <code>__subclasshook__</code>
+      </p>
+    </td>
+  </tr>
+</table>
+<!-- ==================== STATIC METHODS ==================== -->
+<a name="section-StaticMethods"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Static Methods</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-StaticMethods"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="identifier"></a><span class="summary-sig-name">identifier</span>(<span class="summary-sig-arg">w</span>,
+        <span class="summary-sig-arg">t</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="lang.lang-pysrc.html#Lang.identifier">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS VARIABLES ==================== -->
+<a name="section-ClassVariables"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Class Variables</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-ClassVariables"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="delimiters"></a><span class="summary-name">delimiters</span> = <code title="'[&quot;\':!,;+*^&amp;@#$%&amp;\\-\\/\\|=$()?&lt;&gt;\\s\\[\\]]'"><code class="variable-quote">'</code><code class="variable-string">[&quot;\':!,;+*^&amp;@#$%&amp;\\-\\/\\|=$()?&lt;&gt;\\s\\[\\]]</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="r_space"></a><span class="summary-name">r_space</span> = <code title="'[ ]'"><code class="variable-quote">'</code><code class="variable-string">[ ]</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="r_newline"></a><span class="summary-name">r_newline</span> = <code title="'[\\n]'"><code class="variable-quote">'</code><code class="variable-string">[\\n]</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="r_tab"></a><span class="summary-name">r_tab</span> = <code title="'[\\t]'"><code class="variable-quote">'</code><code class="variable-string">[\\t]</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="r_slash"></a><span class="summary-name">r_slash</span> = <code title="'[/]'"><code class="variable-quote">'</code><code class="variable-string">[/]</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="r_asterisk"></a><span class="summary-name">r_asterisk</span> = <code title="'[*]'"><code class="variable-quote">'</code><code class="variable-string">[*]</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="r_comma"></a><span class="summary-name">r_comma</span> = <code title="'[,]'"><code class="variable-quote">'</code><code class="variable-string">[,]</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="r_equal"></a><span class="summary-name">r_equal</span> = <code title="'[=]'"><code class="variable-quote">'</code><code class="variable-string">[=]</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="r_plus"></a><span class="summary-name">r_plus</span> = <code title="'[+]'"><code class="variable-quote">'</code><code class="variable-string">[+]</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="r_dash"></a><span class="summary-name">r_dash</span> = <code title="'[-]'"><code class="variable-quote">'</code><code class="variable-string">[-]</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="r_bracket_l"></a><span class="summary-name">r_bracket_l</span> = <code title="'[\\[]'"><code class="variable-quote">'</code><code class="variable-string">[\\[]</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="r_bracket_r"></a><span class="summary-name">r_bracket_r</span> = <code title="'[\\]]'"><code class="variable-quote">'</code><code class="variable-string">[\\]]</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="r_parentheses_l"></a><span class="summary-name">r_parentheses_l</span> = <code title="'[(]'"><code class="variable-quote">'</code><code class="variable-string">[(]</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="r_parentheses_r"></a><span class="summary-name">r_parentheses_r</span> = <code title="'[)]'"><code class="variable-quote">'</code><code class="variable-string">[)]</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="r_hash"></a><span class="summary-name">r_hash</span> = <code title="'[#]'"><code class="variable-quote">'</code><code class="variable-string">[#]</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="r_bang"></a><span class="summary-name">r_bang</span> = <code title="'[!]'"><code class="variable-quote">'</code><code class="variable-string">[!]</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="r_question"></a><span class="summary-name">r_question</span> = <code title="'[?]'"><code class="variable-quote">'</code><code class="variable-string">[?]</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="r_double_quote"></a><span class="summary-name">r_double_quote</span> = <code title="'[\\&quot;]'"><code class="variable-quote">'</code><code class="variable-string">[\\&quot;]</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="r_single_quote"></a><span class="summary-name">r_single_quote</span> = <code title="'[\\\']'"><code class="variable-quote">'</code><code class="variable-string">[\\\']</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="r_float"></a><span class="summary-name">r_float</span> = <code title="'^[0-9]*\\.[0-9]+$'"><code class="variable-quote">'</code><code class="variable-string">^[0-9]*\\.[0-9]+$</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="r_int"></a><span class="summary-name">r_int</span> = <code title="'^[0-9]+$'"><code class="variable-quote">'</code><code class="variable-string">^[0-9]+$</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="r_not"></a><span class="summary-name">r_not</span> = <code title="'^NOT$'"><code class="variable-quote">'</code><code class="variable-string">^NOT$</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="r_identifier"></a><span class="summary-name">r_identifier</span> = <code title="'[_a-zA-Z][_a-zA-Z0-9]*'"><code class="variable-quote">'</code><code class="variable-string">[_a-zA-Z][_a-zA-Z0-9]*</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="r_atsign"></a><span class="summary-name">r_atsign</span> = <code title="'[@]'"><code class="variable-quote">'</code><code class="variable-string">[@]</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang-class.html#symbols" class="summary-name">symbols</a> = <code title="{r_space: lambda w, t: Lang.Space(w, t), r_newline: lambda w, t: Lang.\
+NewLine(w, t), r_tab: lambda w, t: Lang.Tab(w, t), r_bracket_l: lambda\
+ w, t: Lang.Bracket(w, t, open= True), r_bracket_r: lambda w, t: Lang.\
+Bracket(w, t, open= False), r_double_quote: lambda w, t: Lang.DoubleQu\
+ote(w, t), r_single_quote: lambda w, t: Lang.SingleQuote(w, t), r_pare\
+ntheses_l: lambda w, t: Lang.Parentheses(w, t, open= True), r_parenthe\
+ses_r: lambda w, t: Lang.Parentheses(w, t, open= False), r_slash: {r_a\
+sterisk: lambda w, t: Lang.CommentBlock(w, t, open= True), r_slash: la\
+..."><code class="variable-group">{</code><code class="variable-quote">'</code><code class="variable-string">[ ]</code><code class="variable-quote">'</code><code class="variable-op">: </code>&lt;function &lt;lambda&gt; at 0xb6b4fc30&gt;<code class="variable-op">, </code><code class="variable-quote">'</code><code class="variable-string">[!]</code><code class="variable-quote">'</code><code class="variable-op">: </code><code class="variable-group">{</code>N<code class="variable-ellipsis">...</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang-class.html#keywords" class="summary-name">keywords</a> = <code title="{'prnt': lambda w, t: Lang.Prnt(w, t), 'if': lambda w, t: Lang.If(w, t\
+), 'else': lambda w, t: Lang.Else(w, t), 'end': lambda w, t: Lang.End(\
+w, t), 'procedure': lambda w, t: Lang.Procedure(w, t), 'def': lambda w\
+, t: Lang.Def(w, t), 'exec': lambda w, t: Lang.Exec(w, t), 'include': \
+lambda w, t: Lang.Include(w, t), 'WAIT': lambda w, t: Lang.Wait(w, t)}">{'prnt': lambda w, t: Lang.Prnt(w, t), 'if': lambda<code class="variable-ellipsis">...</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang-class.html#parameters" class="summary-name">parameters</a> = <code title="{'UNTIL': lambda w, t: Lang.Until(w, t), 'BY': lambda w, t: Lang.By(w,\
+ t), 'TUNE': lambda w, t: Lang.Tune(w, t),}">{'UNTIL': lambda w, t: Lang.Until(w, t), 'BY': la<code class="variable-ellipsis">...</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="bindings"></a><span class="summary-name">bindings</span> = <code title="{'TAILED': DM.testme}">{'TAILED': DM.testme}</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang-class.html#builtins" class="summary-name">builtins</a> = <code title="{'TAILED': lambda w, t: Lang.Tailed(w, t, Lang.bindings [w])}">{'TAILED': lambda w, t: Lang.Tailed(w, t, Lang.bind<code class="variable-ellipsis">...</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="clause"></a><span class="summary-name">clause</span> = <code title="{r'&lt;parameter&gt;': lambda: Lang.expression}">{r'&lt;parameter&gt;': lambda: Lang.expression}</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="lang.lang.Lang-class.html#expression" class="summary-name">expression</a> = <code title="{r'&lt;unary-op&gt;': lambda: Lang.expression, r'&lt;delim&gt;|&lt;bracket&gt;': lambda:\
+ Lang.expression, r'&lt;const&gt;|&lt;ident&gt;|&lt;built-in&gt;': {r'&lt;bracket&gt;|&lt;const&gt;|\
+&lt;ident&gt;|&lt;built-in&gt;': lambda: Lang.expression [r'&lt;const&gt;|&lt;ident&gt;|&lt;built\
+-in&gt;'], '&lt;op&gt;': lambda: Lang.expression, '&lt;/delim&gt;|&lt;/bracket&gt;': lambda\
+: Lang.expression [r'&lt;const&gt;|&lt;ident&gt;|&lt;built-in&gt;'], '&lt;comma&gt;': lambda: \
+Lang.expression}}"><code class="variable-group">{</code><code class="variable-quote">'</code><code class="variable-string">&lt;const&gt;|&lt;ident&gt;|&lt;built-in&gt;</code><code class="variable-quote">'</code><code class="variable-op">: </code><code class="variable-group">{</code><code class="variable-quote">'</code><code class="variable-string">&lt;/delim&gt;|&lt;/brack</code><code class="variable-ellipsis">...</code></code>
+    </td>
+  </tr>
+</table>
+<!-- ==================== PROPERTIES ==================== -->
+<a name="section-Properties"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Properties</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Properties"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+  <tr>
+    <td colspan="2" class="summary">
+    <p class="indent-wrapped-lines"><b>Inherited from <code>object</code></b>:
+      <code>__class__</code>
+      </p>
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS VARIABLE DETAILS ==================== -->
+<a name="section-ClassVariableDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Class Variable Details</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-ClassVariableDetails"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+<a name="symbols"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <h3 class="epydoc">symbols</h3>
+  
+  <dl class="fields">
+  </dl>
+  <dl class="fields">
+    <dt>Value:</dt>
+      <dd><table><tr><td><pre class="variable">
+{r_space: lambda w, t: Lang.Space(w, t), r_newline: lambda w, t: Lang.<span class="variable-linewrap"><img src="crarr.png" alt="\" /></span>
+NewLine(w, t), r_tab: lambda w, t: Lang.Tab(w, t), r_bracket_l: lambda<span class="variable-linewrap"><img src="crarr.png" alt="\" /></span>
+ w, t: Lang.Bracket(w, t, open= True), r_bracket_r: lambda w, t: Lang.<span class="variable-linewrap"><img src="crarr.png" alt="\" /></span>
+Bracket(w, t, open= False), r_double_quote: lambda w, t: Lang.DoubleQu<span class="variable-linewrap"><img src="crarr.png" alt="\" /></span>
+ote(w, t), r_single_quote: lambda w, t: Lang.SingleQuote(w, t), r_pare<span class="variable-linewrap"><img src="crarr.png" alt="\" /></span>
+ntheses_l: lambda w, t: Lang.Parentheses(w, t, open= True), r_parenthe<span class="variable-linewrap"><img src="crarr.png" alt="\" /></span>
+ses_r: lambda w, t: Lang.Parentheses(w, t, open= False), r_slash: {r_a<span class="variable-linewrap"><img src="crarr.png" alt="\" /></span>
+sterisk: lambda w, t: Lang.CommentBlock(w, t, open= True), r_slash: la<span class="variable-linewrap"><img src="crarr.png" alt="\" /></span>
+<code class="variable-ellipsis">...</code>
+</pre></td></tr></table>
+</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="keywords"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <h3 class="epydoc">keywords</h3>
+  
+  <dl class="fields">
+  </dl>
+  <dl class="fields">
+    <dt>Value:</dt>
+      <dd><table><tr><td><pre class="variable">
+{'prnt': lambda w, t: Lang.Prnt(w, t), 'if': lambda w, t: Lang.If(w, t<span class="variable-linewrap"><img src="crarr.png" alt="\" /></span>
+), 'else': lambda w, t: Lang.Else(w, t), 'end': lambda w, t: Lang.End(<span class="variable-linewrap"><img src="crarr.png" alt="\" /></span>
+w, t), 'procedure': lambda w, t: Lang.Procedure(w, t), 'def': lambda w<span class="variable-linewrap"><img src="crarr.png" alt="\" /></span>
+, t: Lang.Def(w, t), 'exec': lambda w, t: Lang.Exec(w, t), 'include': <span class="variable-linewrap"><img src="crarr.png" alt="\" /></span>
+lambda w, t: Lang.Include(w, t), 'WAIT': lambda w, t: Lang.Wait(w, t)}
+</pre></td></tr></table>
+</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="parameters"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <h3 class="epydoc">parameters</h3>
+  
+  <dl class="fields">
+  </dl>
+  <dl class="fields">
+    <dt>Value:</dt>
+      <dd><table><tr><td><pre class="variable">
+{'UNTIL': lambda w, t: Lang.Until(w, t), 'BY': lambda w, t: Lang.By(w,<span class="variable-linewrap"><img src="crarr.png" alt="\" /></span>
+ t), 'TUNE': lambda w, t: Lang.Tune(w, t),}
+</pre></td></tr></table>
+</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="builtins"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <h3 class="epydoc">builtins</h3>
+  
+  <dl class="fields">
+  </dl>
+  <dl class="fields">
+    <dt>Value:</dt>
+      <dd><table><tr><td><pre class="variable">
+{'TAILED': lambda w, t: Lang.Tailed(w, t, Lang.bindings [w])}
+</pre></td></tr></table>
+</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="expression"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <h3 class="epydoc">expression</h3>
+  
+  <dl class="fields">
+  </dl>
+  <dl class="fields">
+    <dt>Value:</dt>
+      <dd><table><tr><td><pre class="variable">
+{r'&lt;unary-op&gt;': lambda: Lang.expression, r'&lt;delim&gt;|&lt;bracket&gt;': lambda:<span class="variable-linewrap"><img src="crarr.png" alt="\" /></span>
+ Lang.expression, r'&lt;const&gt;|&lt;ident&gt;|&lt;built-in&gt;': {r'&lt;bracket&gt;|&lt;const&gt;|<span class="variable-linewrap"><img src="crarr.png" alt="\" /></span>
+&lt;ident&gt;|&lt;built-in&gt;': lambda: Lang.expression [r'&lt;const&gt;|&lt;ident&gt;|&lt;built<span class="variable-linewrap"><img src="crarr.png" alt="\" /></span>
+-in&gt;'], '&lt;op&gt;': lambda: Lang.expression, '&lt;/delim&gt;|&lt;/bracket&gt;': lambda<span class="variable-linewrap"><img src="crarr.png" alt="\" /></span>
+: Lang.expression [r'&lt;const&gt;|&lt;ident&gt;|&lt;built-in&gt;'], '&lt;comma&gt;': lambda: <span class="variable-linewrap"><img src="crarr.png" alt="\" /></span>
+Lang.expression}}
+</pre></td></tr></table>
+</dd>
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="lang-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="https://github.com/64kbytes/lang">Lang</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Tue Sep  8 17:07:08 2015
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>
