@@ -1,3 +1,1 @@
-"""
-Doubletalk script language
-"""
+from lang import Lang
