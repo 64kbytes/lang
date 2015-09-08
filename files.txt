@@ -1,0 +1,16 @@
+/usr/local/lib/python2.7/dist-packages/lang-0.1-py2.7.egg/EGG-INFO/dependency_links.txt
+/usr/local/lib/python2.7/dist-packages/lang-0.1-py2.7.egg/EGG-INFO/top_level.txt
+/usr/local/lib/python2.7/dist-packages/lang-0.1-py2.7.egg/EGG-INFO/not-zip-safe
+/usr/local/lib/python2.7/dist-packages/lang-0.1-py2.7.egg/EGG-INFO/PKG-INFO
+/usr/local/lib/python2.7/dist-packages/lang-0.1-py2.7.egg/EGG-INFO/pbr.json
+/usr/local/lib/python2.7/dist-packages/lang-0.1-py2.7.egg/EGG-INFO/SOURCES.txt
+/usr/local/lib/python2.7/dist-packages/lang-0.1-py2.7.egg/lang/__init__.py
+/usr/local/lib/python2.7/dist-packages/lang-0.1-py2.7.egg/lang/parser.pyc
+/usr/local/lib/python2.7/dist-packages/lang-0.1-py2.7.egg/lang/lang.pyc
+/usr/local/lib/python2.7/dist-packages/lang-0.1-py2.7.egg/lang/__init__.pyc
+/usr/local/lib/python2.7/dist-packages/lang-0.1-py2.7.egg/lang/terminal.pyc
+/usr/local/lib/python2.7/dist-packages/lang-0.1-py2.7.egg/lang/parser.py
+/usr/local/lib/python2.7/dist-packages/lang-0.1-py2.7.egg/lang/interp.py
+/usr/local/lib/python2.7/dist-packages/lang-0.1-py2.7.egg/lang/interp.pyc
+/usr/local/lib/python2.7/dist-packages/lang-0.1-py2.7.egg/lang/terminal.py
+/usr/local/lib/python2.7/dist-packages/lang-0.1-py2.7.egg/lang/lang.py
