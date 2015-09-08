@@ -1,0 +1,10 @@
+
+prnt 'Im sample.dtk'
+
+y = 10
+z = 5
+
+prnt y*z
+
+
+
