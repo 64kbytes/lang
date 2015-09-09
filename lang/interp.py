@@ -11,7 +11,7 @@ class Interpreter(object):
 		def __init__(self):
 			self.instr 	= []
 			self.stack	= []
-			self.scope 	= [{}]	
+			self.scope 	= [{}]
 
 	def __init__(self):
 		self.parser 		= Parser(Lang(), 'test2.dtk')
@@ -20,6 +20,7 @@ class Interpreter(object):
 		self.ctrl_stack		= [True]
 		self.block_stack	= ['<main>']
 		self.pntr 			= 0
+		self.last 			= None
 
 	def load(self):
 	
@@ -39,6 +40,7 @@ class Interpreter(object):
 	
 		for i in source:
 			r = self.eval(i) if build is None else self.eval(self.parser.build(i))
+			self.last = r
 			
 		return r
 	
@@ -50,15 +52,15 @@ class Interpreter(object):
 			print 'Block %s %s' % ('\t'*2, self.block_stack)
 			print 'Scope %s %s' % ('\t'*2, self.memory.scope)
 			
-			#print 'Heap %s %s' % ('\t'*2, self.memory.heap)
 			print 'Stack %s %s' % ('\t'*2, self.memory.stack)
 			print 'Read %s %s' % ('\t'*2, self.ctrl_stack)
 			print 'Instruction is %s %s' % ('\t'*1, self.memory.instr[self.pntr])
+			print 'Last result %s %s' % ('\t'*1, self.last)
 			
 			print '-'*80
 			# eval the instructions	
 			r = self.eval(self.memory.instr[self.pntr])
-		
+			self.last = r
 
 		except IndexError as ie:
 			return False

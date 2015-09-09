@@ -119,7 +119,8 @@ class Lang(object):
 		'def':			lambda w,t: Lang.Def(w,t),
 		'exec':			lambda w,t: Lang.Exec(w,t),
 		'include':		lambda w,t: Lang.Include(w,t),
-		'WAIT':			lambda w,t: Lang.Wait(w,t)
+		'WAIT':			lambda w,t: Lang.Wait(w,t),
+		'FAILSAFE':		lambda w,t: Lang.Failsafe(w,t)
 	}
 	
 	parameters = {
