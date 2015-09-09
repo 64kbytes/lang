@@ -1,4 +1,4 @@
-import tty, termios, sys
+import tty, termios, sys, StringIO
 from lang import *
 import inspect
 
